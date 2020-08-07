@@ -1,0 +1,71 @@
+@import "./fonts.scss";
+@import "./colors.scss";
+@import "./shadows.scss";
+
+.hide {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+}
+
+.navbar-container {
+    position: absolute;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 65px;
+}
+
+.navbar-container--styles {
+    border-radius: 5px;
+    background-color: $complementary;
+    @include BoxShadow(2);
+}
+
+.link {
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.link:active {
+    background-color: $primary;
+    color: black;
+    outline: none;
+}
+
+.link--styles {
+    text-decoration: none;
+    font-family: $font;
+    background-color: $primary;
+    color: white;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes unrotate {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .navbar-container {
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,84 @@
+@import "../styles/shadows.scss";
+@import "../styles/fonts.scss";
+@import "../styles/colors.scss";
+.book-container {
+    width: 100%;
+}
+
+.book-img-container {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-img {
+    width: 300px;
+    @include BoxShadow(8);
+}
+.purchase-links-flex {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.purchase-links-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 180px);
+}
+
+.purchase-link--styles {
+    text-align: center;
+    font-family: $font2;
+    margin-top: 10px;
+    background-color: $primary;
+    border-radius: 5px;
+    padding: 10pt;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    @include BoxShadow(2);
+}
+
+@media only screen and (min-width: 750px) { 
+
+    .book-img-container {
+    }
+
+    .book-img {
+        width: 1000px;
+    }
+
+    .purchase-links-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+    }
+
+    .purchase-link {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .purchase-link--styles {
+        text-align: center;
+        font-family: $font2;
+        font-size: 28px;
+        background-color: $primary;
+        border-radius: 5px;
+        padding: 25x;
+        color: white;
+        text-decoration: none;
+        outline: none;
+        transition: all .4s;
+        @include BoxShadow(2);
+    }
+
+    .purchase-link--styles:hover {
+        color: white;
+        background-color: $primaryhover;
+        @include BoxShadow(12);
+
+    }
+ }
