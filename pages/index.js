@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import '../styles/home.scss'
+import Gallery from "react-photo-gallery";
 
 const Layout = dynamic(() => import("../components/Layout"));
 const Burger = dynamic(() => import("../components/Burger"));
@@ -11,7 +12,8 @@ const Book = dynamic(() => import("../components/Book"));
 const Author = dynamic(() => import("../components/Author"));
 const Contact = dynamic(() => import("../components/Contact"));
 const DesktopNavbar = dynamic(() => import("../components/DesktopNavbar"));
-const Gallery = dynamic(() => import("../components/Gallery"));
+const PhotoGallery = dynamic(() => import("../components/PhotoGallery"));
+const Photos = dynamic(() => import("../components/Photos"));
 
 export default class Home extends Component {
   constructor(props) {
@@ -38,6 +40,7 @@ export default class Home extends Component {
           <DesktopNavbar />
           <Book />
           <Author />
+          <PhotoGallery />
         </Layout>
       </>
     )
