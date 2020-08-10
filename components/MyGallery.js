@@ -2,7 +2,7 @@ import "../styles/my-gallery.scss";
 
 export default function MyGallery() {
     return (
-        <div className="gallery-container">
+        <div id="photos" className="gallery-container">
             <div className="photo-title-container photo-title-container--styles">
                 <div className="photo-gallery-title photo-gallery-title--styles">
                     Photo Gallery:

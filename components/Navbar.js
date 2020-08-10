@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Link from "next/link";
 import "../styles/navbar.scss";
 
 export default class Navbar extends Component {
@@ -23,7 +22,7 @@ export default class Navbar extends Component {
                 <a href="#home" className={`link link--styles`}>Home</a>
                 <a href="#books" className={`link link--styles`}>Books</a>
                 <a href="#author" className={`link link--styles`}>Author</a>
-                <a href="#contact" className={`link link--styles`}>Contact</a>
+                <a href="#photos" className={`link link--styles`}>Photos</a>
             </div>
         );
     }
