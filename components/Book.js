@@ -15,7 +15,7 @@ export default function Book() {
             <div className="purchase-links-flex">
                 <div className="purchase-links-grid">
                     <a href="https://www.amazon.com/Roland-Wauer-Wild-Life-Adventures/dp/B00SCUGVRG" className="purchase-link purchase-link--styles">Amazon</a>
-                    <a href="" className="purchase-link purchase-link--styles">Barnes & Nobles</a>
+                    <a href="https://www.barnesandnoble.com/w/my-wild-life-roland-h-wauer/1119381518?ean=9780896728851" className="purchase-link purchase-link--styles">Barnes & Nobles</a>
                 </div>
             </div>
         </div>
