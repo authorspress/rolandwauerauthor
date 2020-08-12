@@ -44,13 +44,22 @@ figcaption {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(21, auto);
-    grid-gap: 15px;
+    grid-gap: 5px;
 }
 
 .gallery-img {
     width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover;
+    transition: transform .2s; /* Animation */
+}
+
+.gallery-img-23 {
+    object-fit: cover;
+}
+
+.gallery-img-30 {
+    object-fit: fill;
 }
 
 @media only screen and (min-width: 750px) { 

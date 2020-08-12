@@ -26,7 +26,7 @@ export default function MyGallery() {
 
                 <figure className="gallery-item gallery-item-4">
                     <img className="gallery-img" src="/gallerypics/pic4.jpg" alt="image 4" />
-                    <figcaption>Ro_s Book sigining at CDRI, Alpine, Texas, by Betty Wauer</figcaption>
+                    <figcaption>Ro's Book sigining at CDRI, Alpine, Texas, by Betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-5">
@@ -61,7 +61,7 @@ export default function MyGallery() {
 
                 <figure className="gallery-item gallery-item-11">
                     <img className="gallery-img" src="/gallerypics/pic11.jpg" alt="image 11" />
-                    <figcaption>Ro in living room , Vicotoria, Texas, by Wauer</figcaption>
+                    <figcaption>Ro in living room , Vicotoria, Texas, by Betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-12">
@@ -76,7 +76,7 @@ export default function MyGallery() {
 
                 <figure className="gallery-item gallery-item-14">
                     <img className="gallery-img" src="/gallerypics/pic14.jpg" alt="image 14" />
-                    <figcaption>Ro bitting Agave Carleen Briht Arbortum, Waco, by betty Wauer</figcaption>
+                    <figcaption>Ro biting Agave Carleen Briht Arboretum, Waco, by betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-15">
@@ -96,7 +96,7 @@ export default function MyGallery() {
 
                 <figure className="gallery-item gallery-item-18">
                     <img className="gallery-img" src="/gallerypics/pic18.jpg" alt="image 18" />
-                    <figcaption>Ro at the Pyramids, Egypt, by Betty Wauer</figcaption>
+                    <figcaption>Ro at Pyramids, Egypt, by Betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-19">
@@ -110,7 +110,7 @@ export default function MyGallery() {
                 </figure>
 
                 <figure className="gallery-item gallery-item-23">
-                    <img className="gallery-img" src="/gallerypics/pic23.jpg" alt="image 23" />
+                    <img className="gallery-img gallery-img-23" src="/gallerypics/pic23.jpg" alt="image 23" />
                     <figcaption>Ro at Crater Lake, by Betty Wauer</figcaption>
                 </figure>
 
@@ -131,7 +131,7 @@ export default function MyGallery() {
 
                 <figure className="gallery-item gallery-item-27">
                     <img className="gallery-img" src="/gallerypics/pic27.jpg" alt="image 27" />
-                    <figcaption>Ro at Lower Cabeneras Canyon, Maderas del Carmen, Mexico by Betty White</figcaption>
+                    <figcaption>Ro at Lower Cabeneras Canyon, Maderas del Carmen, Mexico by Betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-28">
@@ -141,17 +141,17 @@ export default function MyGallery() {
 
                 <figure className="gallery-item gallery-item-29">
                     <img className="gallery-img" src="/gallerypics/pic29.jpg" alt="image 29" />
-                    <figcaption>Ro Roger T. Peterson, Rockport, by Greg Lasly</figcaption>
+                    <figcaption>Ro & Roger T. Peterson, Rockport, by Greg Lasly</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-30">
-                    <img className="gallery-img" src="/gallerypics/pic30.jpg" alt="image 30" />
+                    <img className="gallery-img gallery-img-30" src="/gallerypics/pic30.jpg" alt="image 30" />
                     <figcaption>Ro & betty at pyramids, Egypt</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-31">
                     <img className="gallery-img" src="/gallerypics/pic31.jpg" alt="image 31" />
-                    <figcaption>Great Smoking Mts., Fron Clingman_s Dome, by Ro Wauer</figcaption>
+                    <figcaption>Great Smoking Mts., Fron Clingman's Dome, by Ro Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-32">
