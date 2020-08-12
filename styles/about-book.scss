@@ -38,6 +38,40 @@
     width: 300px;
 }
 
+.availability-title {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.availability-title--styles {
+    font-family: $font;
+    font-size: 32px;
+}
+
+.places-flex-center {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.available-places-container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 120px);
+    padding-bottom: 25px;
+}
+
+.bam-available {
+    margin-left: 50px;
+}
+.place-img {
+    max-width: 250px;
+}
+
+.place-img:hover {
+    opacity: .5;
+}
+
 @media only screen and (min-width: 750px) { 
     .about-book-title {
     padding-top: 35px;
@@ -68,4 +102,16 @@
         margin-right: 50px;
         width: 340px;
     }
+
+    .place-img {
+        max-width: 200px;
+    }
+
+    .available-places-container {
+        display: grid;
+        grid-template-columns: repeat(5, 220px);
+        grid-template-rows: repeat(1, 120px);
+        padding-bottom: 25px;
+    }
+
  }
