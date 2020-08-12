@@ -3,10 +3,11 @@
 @import "../styles/colors.scss";
 .book-container {
     width: 100%;
+    background-color: $dirtywhite;
 }
 
 .book-img-container {
-    margin-top: 85px;
+    padding-top: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +27,8 @@
 
 .purchase-links-grid {
     display: grid;
-    grid-template-columns: repeat(1, 180px);
+    grid-template-columns: repeat(1, 220px);
+    padding-bottom: 15px;
 }
 
 .purchase-link--styles {
@@ -48,12 +50,12 @@
     }
 
     .book-img {
-        width: 1000px;
+        width: 600px;
     }
 
     .purchase-links-grid {
         display: grid;
-        grid-template-columns: repeat(2, 280px);
+        grid-template-columns: repeat(2, 340px);
     }
 
     .purchase-link {

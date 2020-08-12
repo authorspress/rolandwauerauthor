@@ -10,6 +10,7 @@ const Burger = dynamic(() => import("../components/Burger"));
 const Navbar = dynamic(() => import("../components/Navbar"));
 const Book = dynamic(() => import("../components/Book"));
 const Author = dynamic(() => import("../components/Author"));
+const AboutBook = dynamic(() => import("../components/AboutBook"));
 const Contact = dynamic(() => import("../components/Contact"));
 const DesktopNavbar = dynamic(() => import("../components/DesktopNavbar"));
 const MyGallery = dynamic(() => import("../components/MyGallery"));
@@ -39,6 +40,7 @@ export default class Home extends Component {
           <DesktopNavbar />
           <Book />
           <Author />
+          <AboutBook />
           <MyGallery />
         </Layout>
       </>

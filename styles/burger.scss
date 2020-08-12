@@ -1,4 +1,5 @@
 @import "../styles/fonts.scss";
+@import "../styles/colors.scss";
 
 $duration: 0.5s;
 
@@ -13,6 +14,7 @@ $content-bg: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    //background-color: $dirtywhite;
 }
 
 .burger {

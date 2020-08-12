@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                 className={`${hide} navbar-container navbar-container--styles`}
             >
                 <a href="#home" className={`link link--styles`}>Home</a>
-                <a href="#books" className={`link link--styles`}>Books</a>
+                <a href="#books" className={`link link--styles`}>Book</a>
                 <a href="#author" className={`link link--styles`}>Author</a>
                 <a href="#photos" className={`link link--styles`}>Photos</a>
             </div>

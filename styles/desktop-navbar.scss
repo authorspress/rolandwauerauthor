@@ -7,7 +7,10 @@
 }
 
 @media only screen and (min-width: 750px) {
-
+    .navbar-container {
+        display: none;
+    }
+    
     .dp-navbar-flex-container {
         padding-top: 25px;
         padding-bottom: 10px;
@@ -47,6 +50,10 @@
         color: yellow;
         border-radius: 5px;
         padding: 10px;
+    }
+
+    .author-name {
+        margin-left: 50px;
     }
 
     .author-name:hover {
