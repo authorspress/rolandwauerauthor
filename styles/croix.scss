@@ -1,0 +1,112 @@
+@import "../styles/fonts.scss";
+
+.croix-container {
+    margin-top: 400px;
+    border: 2px solid red;
+    width: 99%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-img-container {
+    overflow: hidden;
+    position: absolute;
+    right: 0%;
+}
+
+.parallax-img {
+  /* The image used */
+  //background-image: url("../public/croix-min.jpg");
+  /* Set a specific height */
+  max-width: 1000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.croix-title-container {
+    border: 2px solid red;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    right: 2%;
+
+}
+
+.croix-title {
+    color: white;
+    opacity: .5;
+}
+
+.croix-title {
+    text-align: center;
+    font-family: $font;
+    font-size: 150px;
+}
+
+@media only screen and (min-width: 1200px) { 
+    .croix-container {
+    margin-top: 600px;
+    border: 2px solid red;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-img-container {
+    overflow: hidden;
+    position: absolute;
+    right: 0%;
+}
+
+.parallax-img {
+  /* The image used */
+  //background-image: url("../public/croix-min.jpg");
+  /* Set a specific height */
+  max-width: 2000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.croix-title-container {
+    border: 2px solid red;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    right: 2%;
+
+}
+
+.croix-title {
+    color: white;
+    opacity: .5;
+}
+
+.croix-title {
+    text-align: center;
+    font-family: $font;
+    font-size: 300px;
+}
+ }
+
+ @media only screen and (min-width: 1400px) { 
+    .parallax-img-container {
+        overflow: hidden;
+        position: absolute;
+        top: -50%;
+        right: 0%;
+    }
+    
+    .parallax-img {
+    
+    max-width: 3000px;
+
+    }
+
+
+}

@@ -6,12 +6,73 @@
     display: none;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 1220px) {
+          .navbar-container {
+        display: none;
+    }
+    
+    .dp-navbar-flex-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include BoxShadow(2);
+    }
+
+    .desktop-navbar-container {
+        display: block;
+        margin-left: 25px;
+    }
+
+    .dp-link {
+        margin-right: 25px;
+    }
+
+    .dp-link--styles {
+        text-decoration: none;
+        font-family: $font2;
+        color: black;
+        font-weight: 600;
+        font-size: 24px;
+        transition: all .2s ease;
+    }
+
+    .dp-link--styles:hover {
+        background: $primary;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .dp-link--styles:active {
+        background: black;
+        color: yellow;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .author-name {
+        margin-left: 50px;
+    }
+
+    .author-name:hover {
+        color: #424242;
+        cursor: pointer;
+        
+    }
+}
+
+@media only screen and (min-width: 1300px) {
     .navbar-container {
         display: none;
     }
     
     .dp-navbar-flex-container {
+        padding-left: 500px;
+        padding-right: 500px;
         padding-top: 25px;
         padding-bottom: 10px;
         display: flex;

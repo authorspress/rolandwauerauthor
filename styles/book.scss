@@ -1,13 +1,52 @@
 @import "../styles/shadows.scss";
 @import "../styles/fonts.scss";
 @import "../styles/colors.scss";
-.book-container {
-    width: 100%;
+
+.book-flex {
     background-color: $dirtywhite;
 }
 
+.book-cover-container {
+    padding-top: 25px;
+}
+
+.book-cover-title {
+    text-align: center;
+}
+
+.book-cover-sub-title {
+    text-align: center;
+}
+
+.book-cover-title--styles {
+    font-family: $fontbook;
+    font-size: 80px;
+}
+
+.book-cover-sub-title {
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.book-cover-sub-title--styles {
+    font-family: $font2;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.get-copy {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.get-copy--styles {
+    font-family: $font;
+    font-size: 20px;
+}
+
 .book-img-container {
-    padding-top: 85px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +67,7 @@
 .purchase-links-grid {
     display: grid;
     grid-template-columns: repeat(1, 220px);
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .purchase-link--styles {
@@ -44,14 +83,36 @@
     @include BoxShadow(2);
 }
 
-@media only screen and (min-width: 750px) { 
-
-    .book-img-container {
+@media only screen and (min-width: 1200px) {
+        .book-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .book-container {
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows: repeat(1, auto);
+        
+    }
+
+
+    .book-cover-title {
+    text-align: center;
+    padding: 80px;
+    }
+
 
     .book-img {
-        width: 600px;
+        width: 300px;
     }
+
+    .book-img-container {
+        padding-top: 105px;
+        padding-bottom: 85px;
+    }
+
 
     .purchase-links-grid {
         display: grid;
@@ -60,7 +121,70 @@
 
     .purchase-link {
         margin-top: 10px;
-        margin-right: 10px;
+        margin-right: 20px;
+    }
+
+    .purchase-link--styles {
+        text-align: center;
+        font-family: $font2;
+        font-size: 28px;
+        background-color: $primary;
+        border-radius: 5px;
+        padding: 25x;
+        color: white;
+        text-decoration: none;
+        outline: none;
+        transition: all .4s;
+        @include BoxShadow(2);
+    }
+
+    .purchase-link--styles:hover {
+        color: white;
+        background-color: $primaryhover;
+        @include BoxShadow(12);
+
+    }
+ }
+
+@media only screen and (min-width: 1300px) { 
+    .book-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-container {
+        display: grid;
+        grid-template-columns: repeat(2, 700px);
+        grid-template-rows: repeat(1, auto);
+        
+    }
+
+
+    .book-cover-title {
+    text-align: center;
+    padding: 80px;
+    }
+
+
+    .book-img {
+        width: 300px;
+    }
+
+    .book-img-container {
+        padding-top: 105px;
+        padding-bottom: 85px;
+    }
+
+
+    .purchase-links-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 340px);
+    }
+
+    .purchase-link {
+        margin-top: 10px;
+        margin-right: 20px;
     }
 
     .purchase-link--styles {
