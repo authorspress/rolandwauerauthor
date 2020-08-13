@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ParallaxProvider } from 'react-scroll-parallax';
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import '../styles/home.scss'
