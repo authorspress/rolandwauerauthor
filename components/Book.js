@@ -6,7 +6,13 @@ export default function Book() {
     const [img, setImg] = useState("/book.jpg");
 
     return (
-        <div className="book-flex">
+        <div className="book-flex" style={{
+            backgroundImage: "url(" + "/foggyMt.jpg" + ")",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+        }}
+        >
             <div id="books" className="book-container">
                 <div className="book-left-child">
                     <div className="book-cover-container">
@@ -33,6 +39,7 @@ export default function Book() {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

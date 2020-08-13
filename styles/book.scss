@@ -6,6 +6,12 @@
     background-color: $dirtywhite;
 }
 
+.image-overlay {
+    border: 2px solid red;
+    background-color: black;
+    opacity: .5;
+}
+
 .book-cover-container {
     padding-top: 25px;
 }
