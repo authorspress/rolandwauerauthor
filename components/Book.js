@@ -13,6 +13,7 @@ export default function Book() {
             backgroundRepeat: 'no-repeat'
         }}
         >
+            <div className="overlay"></div>
             <div id="books" className="book-container">
                 <div className="book-left-child">
                     <div className="book-cover-container">

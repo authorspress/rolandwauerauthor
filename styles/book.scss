@@ -3,10 +3,19 @@
 @import "../styles/colors.scss";
 
 .book-flex {
+    position: relative;
     background-color: $dirtywhite;
     color: darken($color: #FFFFFF, $amount: 0)
 }
 
+.overlay {
+    position: absolute;
+    border: 2px solid red;
+    background-color: black;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
 
 .book-cover-container {
     padding-top: 25px;

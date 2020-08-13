@@ -29,11 +29,6 @@ export default function MyGallery() {
                     <figcaption>Ro's Book sigining at CDRI, Alpine, Texas, by Betty Wauer</figcaption>
                 </figure>
 
-                <figure className="gallery-item gallery-item-5">
-                    <img className="gallery-img" src="/gallerypics/pic5.jpg" alt="image 5" />
-                    <figcaption>Ro with friends at trailhead, Shoshone NF, Wyoming, by Betty Wauer</figcaption>
-                </figure>
-
                 <figure className="gallery-item gallery-item-6">
                     <img className="gallery-img" src="/gallerypics/pic6.jpg" alt="image 6" />
                     <figcaption>Ro on Lost Mine Trail, Big Bend, NP, by Betty Wauer</figcaption>
@@ -84,11 +79,6 @@ export default function MyGallery() {
                     <figcaption>Ro at Watson Pinelands Preserve, Texas, by Betty Wauer</figcaption>
                 </figure>
 
-                <figure className="gallery-item gallery-item-16">
-                    <img className="gallery-img" src="/gallerypics/pic16.jpg" alt="image 16" />
-                    <figcaption>Ro at Teton Pass, Wyoming, by Betty Wauer</figcaption>
-                </figure>
-
                 <figure className="gallery-item gallery-item-17">
                     <img className="gallery-img" src="/gallerypics/pic17.jpg" alt="image 17" />
                     <figcaption>Ro at Sotano de las Goldendrina, Mexico, by Betty Wauer</figcaption>
@@ -117,11 +107,6 @@ export default function MyGallery() {
                 <figure className="gallery-item gallery-item-24">
                     <img className="gallery-img" src="/gallerypics/pic24.jpg" alt="image 24" />
                     <figcaption>Ro at Big Bend NP by Betty Wauer</figcaption>
-                </figure>
-
-                <figure className="gallery-item gallery-item-25">
-                    <img className="gallery-img" src="/gallerypics/pic25.jpg" alt="image 25" />
-                    <figcaption>Ro at the Aransas NWR, Texas, by Betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-26">
@@ -197,11 +182,6 @@ export default function MyGallery() {
                 <figure className="gallery-item gallery-item-40">
                     <img className="gallery-img" src="/gallerypics/pic40.jpg" alt="image 40" />
                     <figcaption>Betty & Ro at K-Bar, Big Bend NP, by Greg Lasly</figcaption>
-                </figure>
-
-                <figure className="gallery-item gallery-item-41">
-                    <img className="gallery-img" src="/gallerypics/pic41.jpg" alt="image 41" />
-                    <figcaption>Ro at LBJGarden, Austin, by Betty Wauer</figcaption>
                 </figure>
 
                 <figure className="gallery-item gallery-item-21">
