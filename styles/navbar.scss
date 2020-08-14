@@ -14,7 +14,7 @@
 
 .navbar-container {
     position: absolute;
-    top: 10%;
+    top: 8%;
     z-index: 99999;
     width: 95%;
     margin-left: 2.5%;
@@ -22,15 +22,17 @@
 }
 
 .navbar-container--styles {
-    border-radius: 5px;
+    border-radius: 10px;
+    overflow: hidden;
     background-color: $complementary;
     @include BoxShadow(2);
 }
 
 .link {
+    
     text-align: center;
     padding-top: 28px;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
 }
 
 .link:active {
