@@ -274,7 +274,7 @@ export default function MyGallery() {
                 <figure className="gallery-item gallery-item-30">
                     <img
                         className="gallery-img gallery-img-30"
-                        src={require("../public/gallerypics/pic31.jpg")}
+                        src={require("../public/gallerypics/pic30.jpg")}
                         alt="image 30"
                     />
                     <figcaption>Ro & betty at pyramids, Egypt</figcaption>
