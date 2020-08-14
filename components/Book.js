@@ -8,12 +8,13 @@ export default function Book() {
     return (
         <div className="book-flex" style={{
             backgroundImage: "url(" + "/foggyMt.jpg" + ")",
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
+            backgroundAttachment: "fixed",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
         }}
         >
-            <div className="overlay"></div>
+
             <div id="books" className="book-container">
                 <div className="book-left-child">
                     <div className="book-cover-container">

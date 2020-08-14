@@ -10,9 +10,12 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.19.2",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
     "next": "9.5.1",
     "next-compose-plugins": "^2.2.0",
     "next-fonts": "^1.4.0",
+    "next-optimized-images": "^2.6.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-parallax": "^3.0.3",

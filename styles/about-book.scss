@@ -19,13 +19,13 @@
 
 .about-book-summary--styles {
     font-family: $font2;
-    }
+}
 
 .about-book-summary {
     padding-left: 25px;
     padding-right: 25px;
     line-height: 1.5;
-    }
+}
 
 .about-book-img-container {
     display: flex;
@@ -69,33 +69,35 @@
 }
 
 .place-img:hover {
-    opacity: .5;
+    opacity: 0.5;
 }
 
-@media only screen and (min-width: 750px) { 
+@media only screen and (min-width: 750px) {
     .about-book-title {
-    padding-top: 35px;
+        padding-top: 35px;
     }
 
     .about-book-container {
         display: flex;
         justify-content: space-evenly;
-    } 
+        padding-left: 100px;
+        padding-right: 100px;
+    }
     .about-book-title--styles {
-    font-family: $font;
-    font-size: 48px;
-    }   
+        font-family: $font;
+        font-size: 48px;
+    }
 
     .about-book-summary--styles {
-    font-family: $font2;
-    font-size: 25px;
+        font-family: $font2;
+        font-size: 25px;
     }
 
     .about-book-summary {
-    padding-left: 48px;
-    padding-right: 48px;
-    text-align: center;
-    line-height: 1.5;
+        padding-left: 48px;
+        padding-right: 48px;
+        text-align: center;
+        line-height: 1.5;
     }
 
     .about-book-img {
@@ -113,5 +115,49 @@
         grid-template-rows: repeat(1, 120px);
         padding-bottom: 25px;
     }
+}
 
- }
+@media only screen and (min-width: 1450px) {
+    .about-book-title {
+        padding-top: 35px;
+    }
+
+    .about-book-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .about-book-title--styles {
+        font-family: $font;
+        font-size: 48px;
+    }
+
+    .about-book-summary--styles {
+        font-family: $font2;
+        font-size: 25px;
+    }
+
+    .about-book-summary {
+        padding-left: 48px;
+        padding-right: 48px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .about-book-img {
+        margin-right: 50px;
+        width: 340px;
+    }
+
+    .place-img {
+        max-width: 200px;
+    }
+
+    .available-places-container {
+        display: grid;
+        grid-template-columns: repeat(5, 220px);
+        grid-template-rows: repeat(1, 120px);
+        padding-bottom: 25px;
+    }
+}

@@ -50,7 +50,7 @@ export default function AboutBook() {
 
                         <div className="indigo-available">
                             <a className="place-link" href="https://www.chapters.indigo.ca/en-ca/books/natural-inclinations-one-mans-adventures/9781949735000-item.html?ikwid=Natural+Inclinations%3a+One&ikwsec=Home&ikwidx=1#algoliaQueryId=bdd17992c93e576d5f28c417b308ac98">
-                                <img className="place-img" src="/indigo-logo.png" alt="indigo link to book" />
+                                <img className="place-img" src="/indigo-logo.svg" alt="indigo link to book" />
                             </a>
                         </div>
                     </div>
